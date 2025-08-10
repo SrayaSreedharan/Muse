@@ -33,7 +33,7 @@ export default function Home() {
       <div className="grid">
         {SAMPLE.map((item) => (
           <article key={item.id} className="card">
-            <img src={item.src} alt={item.title} />
+            <Image src={item.src} alt={item.title} />
             <div className="meta">
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <div>
